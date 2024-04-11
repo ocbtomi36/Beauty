@@ -1,0 +1,22 @@
+Fontos: 
+Relative paths
+If you don't supply the root, it means that your path is relative.
+
+The simplest example of relative path is just a file name, like index.html. So one should be careful with relative paths. If your current directory is /about/ then index.html would be one, but if you switch it to /contacts/ then it will be another.
+
+Other relative path examples:
+
+./file.php (the file is in the current folder. The same as just file.php)
+images/picture.jpg (the file is in the images folder that is in the current directory)
+../file.php (file is in the folder that is one level higher than the current directory)
+../../file.php (file is in the folder that is two levels higher than the current directory)
+What you ought to know is that the system, when encountered a relative path, always builds it up to the absolute one. Both web-server and file system are doing that but different ways. So, let's learn them.
+Tehát:
+Az alap utvonalam:
+localhost = C:/laragon/www/Projekt_Beauty/public
+Csinálok az elején egy helper és egy config fájlt ahol segédfüggvényeket lehet csinálni és 
+konstansokat lehet definiálni mint pl: alaputvonal, vagy azokra épített utvonalat.
+Osztálynál php-ban osztályelnevezési konvenció, hogy nagy betűvel kell írni.
+Routes osztályt át kell nézni.
+Az alap logika az, hogy van egy controller mappa abban mappák azokkal amely egyedek vannak az adatbázisban.
+Pl: index.php az a fájl ahol az adatbázis és a view össze van kötve.
