@@ -7,5 +7,3 @@ return [
     'username' => 'tomi',
     'password' => 'ocb'
 ];
-
-?>

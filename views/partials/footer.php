@@ -1,5 +1,5 @@
 <?php 
-    echo 'footer.php';
+    
 ?>
 <footer class="footer">
         <div class="social">

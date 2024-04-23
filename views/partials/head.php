@@ -1,11 +1,9 @@
-<?php 
-echo'head.php';  
+<?php  
 /* 
     A css fájlnál mivel ez a home.view.php-ban van behúzva így
     az útvonal a home.view.php-hoz képest van megadva és kell ide egy / a css fájl elé
 */
-$path = __DIR__;
-echo $path;
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

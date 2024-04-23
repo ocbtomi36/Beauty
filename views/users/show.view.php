@@ -32,7 +32,7 @@ loadPartial('navbar');
 
     <?php if (!empty($user['username'])):?>
         <h3>Username</h3>
-        <p><?=$result['username']?></p>
+        <p><?=$user['username']?></p>
     <?php else:?>
     <?php endif?>
     <?php if (!empty($user['phone_number'])):?>
