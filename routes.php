@@ -1,4 +1,4 @@
-<?php 
+<?php
 /*
 return [
     '/' => 'controllers/home.php',
@@ -7,7 +7,8 @@ return [
     '/users/delete' => 'controllers/users/delete.php',
     '/users/modify' => 'controllers/users/modify.php',
     '/users/list' => 'controllers/users/list.php',
-    '/users/listAll' => 'controllers/users/listAll.php'
+    '/users/listAll' => 'controllers/users/listAll.php',
+    '404' => 'controllers/error/404.php'
 ];
 */
 $router->get('/','controllers/home.php'); //home page
@@ -17,4 +18,3 @@ $router->get('/users/delete','controllers/users/delete.php');
 $router->get('/users/modify','controllers/users/modify.php');
 $router->get('/users/list','controllers/users/list.php');
 $router->get('/user','controllers/users/show.php'); //show one user in detail
-?>

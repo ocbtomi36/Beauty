@@ -12,10 +12,9 @@ $params = [
 $user = $db->query('SELECT * FROM users WHERE iduser = :id', $params )->fetch();
 
 
-/* Load a route of views */
+//Load a route of views 
 loadView('users/show',[
     'user' => $user
 ]);
 
-
-?>
+echo 'users/show.php';

@@ -1,36 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" 
-    integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./public/css/style.css">
-    <link rel="stylesheet" href="./public/css/utilities.css">
-    <title>Welcome</title>
-</head>
-<body>
-    <header class="hero">
-        <div id="navbar" class="navbar">
-            <h1 class="logo"><span class="text-primary">Beauty</span> Salon</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#home">About</a></li>
-                    <li><a href="#home">Our Team</a></li>
-                    <li><a href="#home">Picture Gallery</a></li>
-                    <li><a href="#home">Video Gallery</a></li>
-                    <li><a href="#home">Blog</a></li>
-                    <li><a href="form.html">Registration</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="content">
-            <h1>Our passion is Beauty</h1>
-            <p>We make you look better</p>
-            <a href="#about" class="btn"><i class="fas fa-chevron-right"></i> About us</a>
-    </header>
+<?php
+ echo 'home.view.php</br>';
+?>
+    <?php loadPartial('head');?>
+    <?php loadPartial('navbar');?>
     <main>
         <div class="card" style="width: 18rem; border: 1px solid black;">
             <img src="..." class="card-img-top" alt="...">
@@ -84,14 +56,6 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
-        <div class="social">
-            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-            <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
-            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
-        </div>
-        <p>Copyright & copy; 2023 Tamas Zoltan Lecza</p>
-    </footer>
+    <?php loadPartial('footer'); ?>
 </body>
 </html>
