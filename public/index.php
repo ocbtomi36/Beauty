@@ -1,11 +1,14 @@
 <?php
+require 'c:/laragon/www/Projekt_Beauty/Beauty/vendor/autoload.php';
 require '../config.php';
 require '../helper.php';
-require basePath('Framework/Database.php');
+use Framework\Router;
 
-$config = require basePath('config/db.php');
+//require basePath('Framework/Database.php');
 
-require basePath('Framework/Router.php');
+//$config = require basePath('config/db.php');
+
+//require basePath('Framework/Router.php');
 
 $router = new Router();
 
