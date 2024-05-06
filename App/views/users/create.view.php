@@ -1,5 +1,4 @@
-<?
-echo 'okos';
+<?php 
 loadPartial('head');
 loadPartial('navbar');
 
@@ -105,4 +104,3 @@ loadPartial('navbar');
         <p>Copyright & copy; 2023 Tamas Zoltan Lecza</p>
     </footer>
 </body>
-<?php loadPartial('footer');?>
