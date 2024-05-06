@@ -152,4 +152,3 @@ function generate_attributes($key_value_paar){
 }
 
 
-?>

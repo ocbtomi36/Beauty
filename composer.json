@@ -1,0 +1,16 @@
+{
+    "name": "ocbtomi36/beauty",
+    "description": "Beuty app",
+    "authors": [
+        {
+            "name":"Tamas Lecza"
+        }
+        
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "Framework/",
+            "App\\": "App/"
+        }
+    }
+}
