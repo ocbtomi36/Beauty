@@ -20,8 +20,8 @@ class UserController {
         ]);
     }
 
-    public function showOneUser(){
-        $id = $_GET['id'] ?? '';
+    public function showOneUser($params){
+        $id = $params['id'] ?? '';
         $params = [
                     'id' => $id
                 ];

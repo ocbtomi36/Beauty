@@ -3,7 +3,7 @@
 $router->get('/','HomeController@index');
 $router->get('/users','UserController@showAllUser');
 $router->get('/users/create','UserController@addNewUser');
-$router->get('/user','UserController@showOneUser');
+$router->get('/user/{id}','UserController@showOneUser');
 /*
 $router->get('/','controllers/home.php'); //home page
 $router->get('/users','controllers/users/index.php'); //list all user + details button
