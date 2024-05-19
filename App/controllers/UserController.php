@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use Framework\Database;
+use Framework\Validation;
 
 class UserController {
 
@@ -20,8 +21,8 @@ class UserController {
         ]);
     }
 
-    public function showOneUser(){
-        $id = $_GET['id'] ?? '';
+    public function showOneUser($params){
+        $id = $params['id'] ?? '';
         $params = [
                     'id' => $id
                 ];
@@ -35,8 +36,5 @@ class UserController {
     public function addNewUser(){
         loadView('users/create');
     }
-
-
-
 
 }

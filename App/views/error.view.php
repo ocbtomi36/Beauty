@@ -5,7 +5,7 @@ loadPartial('navbar');
 ?>
 <body>
     <div class="error">
-        <p><?php 'Error '.$status. ' '. $message ?></p>
+        <p><?= 'Error '.$status. ' '. $message ?></p>
     </div>
 </body>
 <?= loadPartial('footer')?>

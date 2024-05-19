@@ -11,7 +11,7 @@ class ErrorController {
      *
      * @return void
      */
-    public function notFound($message = 'Resource not found')
+    public static function notFound($message = 'Resource not found')
     {
         $status = '404';
         http_response_code($status);
@@ -26,7 +26,7 @@ class ErrorController {
      *
      * @return void
      */
-    public function unauthorized($message = 'You are not authorized')
+    public static function unauthorized($message = 'You are not authorized')
     {
         http_response_code(403);
         loadView('error', [

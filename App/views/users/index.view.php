@@ -40,7 +40,7 @@ loadPartial('navbar');
                     <td><?=$row['id_card_number']?></td>
                     <td><?=$row['date_of_birth']?></td>
                     <td><?=$row['user_role']?></td>
-                    <td><a href="<?='http://localhost:8000/user?id='.$row['iduser']?>">Details</a></td>
+                    <td><a href="<?='http://localhost:8000/user/'.$row['iduser']?>">Details</a></td>
                 </tr>
             <?php endforeach;?>
         </tbody>
