@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use Framework\Database;
+use Framework\Validation;
 
 class UserController {
 
@@ -35,8 +36,5 @@ class UserController {
     public function addNewUser(){
         loadView('users/create');
     }
-
-
-
 
 }
